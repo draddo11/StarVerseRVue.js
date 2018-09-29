@@ -1,6 +1,6 @@
 <template>
     <div id ='app'>
-        <h3>Starbase Router</h3>
+        <h3>StarVerse Router</h3>
         <h4>
             <router-link class='link' to="/data/people">Meet the characters  </router-link> ||
             <router-link class='link' to="/data/planets">Explore the planets</router-link>
