@@ -27,7 +27,7 @@ export default {
         methods:{
             switchItem(){
                 let random_id=Math.floor(Math.random()*63)+ 1
-                fetch(`https://swapi.co/api/${this.type}/${random_id}`,{
+                fetch(`https://swapi.dev/api/${this.type}/${random_id}`,{
                     method:'GET'
                 })
                 .then(response =>response.json())

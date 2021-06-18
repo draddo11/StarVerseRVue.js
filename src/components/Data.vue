@@ -29,7 +29,7 @@ export default {
            for (let i in initial_ids) {
                let id =initial_ids[i]
             //    console.log('id',id)
-               fetch(`https://swapi.co/api/${this.type}/${id}`,{
+               fetch(`https://swapi.dev/api/${this.type}/${id}`,{
                    method:'GET'
                })
                .then(response => response.json())
