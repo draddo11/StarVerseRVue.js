@@ -1,8 +1,8 @@
 <template>
     <div class='col-md-12'>
       <Item
-      v-for='(item,index) in items'
-      key= 'index'
+      v-for="item in items"
+      :key= 'item.id' 
       :passed-item='item'
       :type='type'
       />
