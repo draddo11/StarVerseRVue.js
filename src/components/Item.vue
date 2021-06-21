@@ -1,7 +1,9 @@
 <template>
   <div class='col-md-4' @click='switchItem'>
+      click on card for more !
       <div class='item-card'>
       <div class='card-block'>
+          
           <h4 class='card-title'>{{item.name}}</h4>
           <div 
           v-for='(value,key,index) in item'>
